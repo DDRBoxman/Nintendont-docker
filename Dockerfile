@@ -16,3 +16,9 @@ RUN ./autogen.sh && ./configure && make && make install
 
 WORKDIR /deps/gamecube-tools
 RUN ./autogen.sh && ./configure && make && make install
+
+ENV DEVKITPPC=/opt/devkitpro/devkitPPC
+ENV DEVKITARM=/opt/devkitpro/devkitARM
+ENV DEVKITPRO=/opt/devkitpro
+
+
