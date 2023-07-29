@@ -1,7 +1,7 @@
 FROM ubuntu:22.04
 
 RUN apt-get update && \
-    apt-get install -y xz-utils mesa-common-dev autotools-dev autoconf automake 
+    apt-get install -y xz-utils mesa-common-dev autotools-dev autoconf automake build-essential
 
 ADD deps /deps
 
