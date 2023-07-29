@@ -1,0 +1,6 @@
+[submodule "deps/gamecube-tools"]
+	path = deps/gamecube-tools
+	url = git@github.com:devkitPro/gamecube-tools.git
+[submodule "deps/general-tools"]
+	path = deps/general-tools
+	url = git@github.com:devkitPro/general-tools.git
